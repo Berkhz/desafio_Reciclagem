@@ -1,2 +1,2 @@
-# desafio_Reciclagem
+# Desafio Profissional
  Desafio Profissional III - Sistema de Reciclagem para Prefeitura
