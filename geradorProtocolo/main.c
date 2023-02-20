@@ -1,41 +1,68 @@
+#include <locale.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <time.h>
+#include <unistd.h>
+
 // Este bloco de código será responsável pelo controle de protocolos abertos pelo usuário.
 // Usuário padrão = admin
-// Senha padrão = 1234
+// Senha padrão = admin
 
 int main(void){
+    setlocale(LC_ALL, "portuguese"); // Comando utilizado para utilizar caracteres especiais
     srand(time(0));
-    char user[6] = "admin";
+    char user[4];
+    char password[4];
     char message[50];
-    int password = 1234;
+    char valid_user[] = "admin";
+    char valid_password[] = "admin";
     int ticket = 100000;
-    int aleatorio = (rand() % 99999);
-    ticket = ticket + aleatorio;
+    int random = (rand() % 99999);
+    int i;
+    int repeat;
+    ticket = ticket + random;
 
-    printf("--------------------------------------\n");
-    printf("Gerador de Protocolo de Homologação\n");
-    printf("--------------------------------------\n");
+    do {
+    printf("********************\n");
+    printf("Gerador de Protocolo\n");
+    printf("********************\n");
 
-    printf("---------------------\n");
     printf("Informe seu usuário: \n");
-    printf("---------------------\n");
     gets(user);
     fflush(stdin);
     
-    printf("-------------------\n");
     printf("Informe sua senha: \n");
-    printf("-------------------\n");
-    scanf("%i", &password);
+    scanf(password);
     fflush(stdin);
+
+     if(strcmp(user, valid_user) == 0 || strcmp(password, valid_password) == 0)
+     {
+          printf("Login bem sucedido!\n");
+     }
+     else
+     {
+     printf("Login ou senha incorretos tente novamente!\n");
+     return 0;
+     }
 
     printf("Gerando nova solicitação de protocolo...\n");
     printf("Informe o objetivo da solicitação do protocolo: \n");
     gets(message);
     fflush(stdin);
 
-    printf("%i | %s \n", ticket , message);
+    for (i = 0; i < 5; i++) {
+    printf(".");
+    fflush(stdout); // limpa o buffer de saída para imprimir na tela imediatamente
+    sleep(1);
+    }
+
+    printf("\n%i | %s \n", ticket , message);
+    printf("Sessão finalizada protocolo gerado com sucesso! \n");
+    printf("Deseja solicitar outro protocolo! (Digite 1 para SIM e 0 para NÃO!) \n");
+    scanf("%i", &repeat);
+    }
+    while (repeat == 1);
 
     system("pause \n");
     return 0;
