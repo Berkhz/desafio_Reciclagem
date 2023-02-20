@@ -23,7 +23,7 @@ int main(void){
     int repeat;
     ticket = ticket + random;
 
-    do {
+    do { // Loop para gerar outro protocolo
     printf("********************\n");
     printf("Gerador de Protocolo\n");
     printf("********************\n");
@@ -36,7 +36,7 @@ int main(void){
     scanf(password);
     fflush(stdin);
 
-     if(strcmp(user, valid_user) == 0 || strcmp(password, valid_password) == 0)
+     if(strcmp(user, valid_user) == 0 || strcmp(password, valid_password) == 0) // Valida se o usuário e a senha estão corretos
      {
           printf("Login bem sucedido!\n");
      }
@@ -51,9 +51,9 @@ int main(void){
     gets(message);
     fflush(stdin);
 
-    for (i = 0; i < 5; i++) {
+    for (i = 0; i < 5; i++) { // Efeito de carregamento
     printf(".");
-    fflush(stdout); // limpa o buffer de saída para imprimir na tela imediatamente
+    fflush(stdout); // Limpa o buffer de saída para imprimir na tela imediatamente
     sleep(1);
     }
 
