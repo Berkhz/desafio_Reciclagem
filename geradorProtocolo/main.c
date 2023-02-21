@@ -61,6 +61,7 @@ int main(void){
     printf("Sessão finalizada protocolo gerado com sucesso! \n");
     printf("Deseja solicitar outro protocolo! (Digite 1 para SIM e 0 para NÃO!) \n");
     scanf("%i", &repeat);
+    fflush(stdin);
     }
     while (repeat == 1);
 
