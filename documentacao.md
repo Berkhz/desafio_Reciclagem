@@ -1,5 +1,6 @@
 # Desafio Profissional 
 ## Criação de um sistema para coleta de lixo para prefeitura de Maringá
+[Desafio Profissional.pdf](https://github.com/Berkhz/desafio_Reciclagem/files/10832210/Desafio.Profissional.pdf)
 
 **Documentação (sujeito a alterações)**
 
