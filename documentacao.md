@@ -9,10 +9,10 @@ Etapas:
 *Sistema Web*
 
 - Definição Sprint 1
-- [ ] Elicitação de requisitos concluída!
+- [x] Elicitação de requisitos concluída!
 - [ ] Modelo projeto de software concluído!
-- [ ] Interfaces concluídas!
-- [ ] Codificação do projeto parte 1 concluídos!
+- [x] Interfaces concluídas!
+- [x] Codificação do projeto parte 1 concluídos!
 - [ ] Desenvolvimento do banco de dados parte 1 concluídos!
   
 1. Elicitação de requisitos.
