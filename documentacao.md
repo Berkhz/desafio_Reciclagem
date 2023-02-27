@@ -13,4 +13,4 @@
 [elicitacao_requisitos.pdf](https://github.com/Berkhz/desafio_Reciclagem/files/10835253/elicitacao_requisitos.pdf)
 
 #### Definição dos requisitos e estrutura do sistema:
-[requisitos_e_estrutura_sistema.pdf](https://github.com/Berkhz/desafio_Reciclagem/files/10835254/requisitos_e_estrutura_sistema.pdf)
+[requisitos_e_estrutura_sistema.pdf](https://github.com/Berkhz/desafio_Reciclagem/files/10835269/requisitos_e_estrutura_sistema.pdf)
