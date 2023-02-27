@@ -40,6 +40,7 @@ Etapas:
 3.2 UI/UX todo feito com Figma.
 
 3.3 Apresentação das interfaces do sistema Web.
+
 4. Codificação do projeto.
 
 4.1 Consultar melhor linguagem para as características levantadas do nosso sistema.
