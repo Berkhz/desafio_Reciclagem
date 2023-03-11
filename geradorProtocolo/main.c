@@ -8,6 +8,7 @@
 // Este bloco de código será responsável pelo controle de protocolos abertos pelo usuário.
 // Usuário padrão = admin
 // Senha padrão = admin
+// test.
 
 int main(void){
     setlocale(LC_ALL, "portuguese"); // Comando utilizado para utilizar caracteres especiais
