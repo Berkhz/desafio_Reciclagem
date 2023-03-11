@@ -9,17 +9,21 @@ Etapas:
 *Sistema Web*
 
 - Definição Sprint 1
-- [x] Elicitação de requisitos concluída!
-- [ ] Modelo projeto de software concluído!
-- [x] Interfaces concluídas!
-- [x] Codificação do projeto parte 1 concluídos!
-- [ ] Desenvolvimento do banco de dados parte 1 concluídos!
+- [x] Elaborar cronograma!
+- [x] Pesquisa sobre softwares/sistemas relacionados!
+- [x] Elicitação de requisitos!
+- [ ] Requisitos funcionais e não funcionais!
+- [ ] Documentação do projeto!
+- [ ] Revisão da sprint!
+- [ ] Reunião!
   
-1. Elicitação de requisitos.
+1. Elaborar Cronograma
 
-1.1 Realizar consultas sobre softwares/sistemas semelhantes.
+2. Elicitação de requisitos.
 
-1.2 Levantar idéias que podem ser implementadas no nosso sistema. 
+2.1 Realizar consultas sobre softwares/sistemas semelhantes.
+
+2.2 Levantar idéias que podem ser implementadas no nosso sistema. 
 
 1.3 Avaliar os requisitos funcionais e não funcionais do sistema.
 
