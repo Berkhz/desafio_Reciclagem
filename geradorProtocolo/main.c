@@ -21,9 +21,13 @@ int main(void){
     int random = (rand() % 99999);
     int i;
     int repeat;
-    ticket = ticket + random;
 
     do { // Loop para gerar outro protocolo
+    ticket = 0;
+    ticket = 100000;
+    random = (rand() % 99999);
+    ticket = ticket + random;
+
     printf("********************\n");
     printf("Gerador de Protocolo\n");
     printf("********************\n");
