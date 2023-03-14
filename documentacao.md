@@ -55,11 +55,11 @@ Requisitos levantados de acordo com os sistemas pesquisados:
 - REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS: 
 
 - Requisitos Funcionais:  
-Coleta eficiente de lixo em toda a área urbana de Maringá;  
-Separação e reciclagem adequadas dos materiais recicláveis;  
-Sistema de conscientização pública sobre a importância da separação correta de resíduos; 
-Infraestrutura adequada para lidar com a quantidade crescente de resíduos;  
-Investimento financeiro necessário para a operação sustentável do sistema.  
+1. Coleta eficiente de lixo em toda a área urbana de Maringá;  
+2. Separação e reciclagem adequadas dos materiais recicláveis;  
+3. Sistema de conscientização pública sobre a importância da separação correta de resíduos; 
+4. Infraestrutura adequada para lidar com a quantidade crescente de resíduos;  
+5. Investimento financeiro necessário para a operação sustentável do sistema.  
 
 - Requisitos Não Funcionais:  
 
