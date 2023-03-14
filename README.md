@@ -12,10 +12,10 @@ Etapas:
 - [x] Elaborar cronograma!
 - [x] Pesquisa sobre softwares/sistemas relacionados!
 - [x] Elicitação de requisitos!
-- [ ] Requisitos funcionais e não funcionais!
-- [ ] Documentação do projeto!
-- [ ] Revisão da sprint!
-- [ ] Reunião!
+- [x] Requisitos funcionais e não funcionais!
+- [x] Documentação do projeto!
+- [x] Revisão da sprint!
+- [x] Reunião!
   
 1. Elaborar Cronograma
 
