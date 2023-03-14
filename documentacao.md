@@ -81,10 +81,10 @@ Requisitos levantados de acordo com os sistemas pesquisados:
 
 RECICLASAMPA. Movimento Recicla Sampa. Disponível em: https://www.reciclasampa.com.br/movimento. Acesso em: 11/03/2023. 
 
-SIGELU: Limpeza Urbana. Disponível em <https://lemobs.com.br/produtos/sigelu-limpeza-urbana/>. Acesso em: 11/03/2023. 
+SIGELU: Limpeza Urbana. Disponível em: <https://lemobs.com.br/produtos/sigelu-limpeza-urbana/>. Acesso em: 11/03/2023. 
 
-COLETA DE LIXO: Curitiba. Disponível em <https://coletalixo.curitiba.pr.gov.br/>. Acesso em: 11/03/2023. 
+COLETA DE LIXO: Curitiba. Disponível em: <https://coletalixo.curitiba.pr.gov.br/>. Acesso em: 11/03/2023. 
 
- MEU RESÍDUO: Disponível em: https://meuresiduo.com . Acesso em: 11/03/2023. 
+ MEU RESÍDUO: Disponível em: https://meuresiduo.com. Acesso em: 11/03/2023. 
 
-SYGECOM:Sistema de gestão empresarial. Disponível em: https://www.sygecom.com.br/. Acesso em: 11/03/2023                    
+SYGECOM: Sistema de gestão empresarial. Disponível em: https://www.sygecom.com.br/. Acesso em: 11/03/2023                    

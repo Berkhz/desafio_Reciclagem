@@ -1,0 +1,113 @@
+/**
+
+CSS para página de login
+*/
+/* Definindo as propriedades gerais do body e do html */
+html,
+body {
+height: 100%;
+}
+
+/* Definindo estilos para o body */
+body {
+background-image: url("images/caminhaodolixo.jpg");
+background-repeat: no-repeat;
+background-position: right bottom;
+background-size: 50%;
+margin: 0;
+font-family: Arial, sans-serif;
+}
+
+/* Definindo estilos para o cabeçalho */
+.header {
+background-color: transparent;
+opacity: 0.8;
+}
+
+/* Definindo estilos para o contêiner */
+.container {
+height: 100%;
+background-color: transparent;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -50px;
+}
+
+/* Definindo estilos para o cabeçalho do formulário de login */
+.label-login {
+width: 400px;
+margin: 0;
+padding: 30px;
+background-color: #A8D2A0;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+
+/* Definindo estilos para o contêiner flex dos campos e botão */
+.login-form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/* Definindo estilos para os campos de usuário e senha */
+.user,
+.password {
+width: 100%;
+margin-bottom: 20px;
+}
+
+/* Definindo estilos para a imagem do cabeçalho do formulário de login */
+.label-login img {
+width: 200px;
+margin-bottom: 30px;
+}
+
+/* Definindo estilos para o formulário */
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/* Definindo estilos para os campos de usuário e senha */
+.user,
+.password {
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+}
+
+/* Definindo estilos para as labels dos campos de usuário e senha */
+label {
+margin-bottom: 5px;
+}
+
+/* Definindo estilos para os inputs de usuário e senha */
+input {
+padding: 10px;
+border-radius: 5px;
+border: none;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Definindo estilos para o botão de envio */
+button {
+background-color: #689FF1;
+color: white;
+padding: 10px 20px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+font-size: 16px;
+}
+
+/* Definindo estilos para o botão de envio quando o cursor está sobre ele */
+button:hover {
+background-color: #3a6bb4;
+}
