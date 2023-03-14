@@ -17,51 +17,30 @@ Etapas:
 - [x] Revisão da sprint!
 - [x] Reunião!
   
-1. Elaborar Cronograma
+- Definição Sprint 2
+- [ ] Modelagem BPMN!
+- [ ] Casos de Uso!
+- [ ] Diagramas UML!
+- [ ] Revisão da sprint!
+- [ ] Reunião!
 
-2. Elicitação de requisitos.
+- Definição Sprint 3
+- [ ] Banco de dados!
+- [ ] Código fonte!
+- [ ] Figma!
+- [ ] Aperfeiçoamento!!
+- [ ] Revisão da sprint!
+- [ ] Reunião!
 
-2.1 Realizar consultas sobre softwares/sistemas semelhantes.
-
-2.2 Levantar idéias que podem ser implementadas no nosso sistema. 
-
-1.3 Avaliar os requisitos funcionais e não funcionais do sistema.
-
-1.4 Reunião para apresentar os requisitos finais do projeto.
-
-2. Modelo projeto de software.
-
-2.1 Projeção de casos de uso do projeto. 
-
-2.2 Fazer diagramação de classe do projeto (UML).  
-
-2.3 Apresentação dos modelos prontos.
-
-3. Criação das interfaces.
-
-3.1 Consultar melhores exemplos de interfaces para nosso sistema.
-
-3.2 UI/UX todo feito com Figma.
-
-3.3 Apresentação das interfaces do sistema Web.
-
-4. Codificação do projeto.
-
-4.1 Consultar melhor linguagem para as características levantadas do nosso sistema.
-
-4.2 Estudar projetos semelhantes de acordo com a linguagem definida.
-
-4.3 Estrutura do código.
-
-4.4 Apresentação das primeiras linhas de código já homologadas.
-
-5. Desenvolvimento do banco de dados.
-
-5.1 Discussão sobre qual banco de dados utilizar de acordo com o projeto. 
-
-5.2 Criação do banco de dados.
-
-5.3 Modelagem banco de dados.
+- Definição Sprint 4
+- [ ] Reunião!
+- [ ] Revisão de código!
+- [ ] Prototipação!
+- [ ] Fase de testes!
+- [ ] Aperfeiçoamento!
+- [ ] Implementação do projeto!
+- [ ] Reunião!
+- [ ] Sistema web homologado!
 
 # Modelo de desenvolvimento:
 
