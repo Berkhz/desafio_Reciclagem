@@ -18,29 +18,29 @@ Etapas:
 - [x] Reunião!
   
 - Definição Sprint 2
-- [ ] Modelagem BPMN!
-- [ ] Casos de Uso!
-- [ ] Diagramas UML!
-- [ ] Revisão da sprint!
-- [ ] Reunião!
+- [x] Modelagem BPMN!
+- [x] Casos de Uso!
+- [x] Diagramas UML!
+- [x] Revisão da sprint!
+- [x] Reunião!
 
 - Definição Sprint 3
-- [ ] Banco de dados!
+- [x] Banco de dados!
 - [ ] Código fonte!
-- [ ] Figma!
-- [ ] Aperfeiçoamento!!
-- [ ] Revisão da sprint!
-- [ ] Reunião!
+- [x] Figma!
+- [x] Aperfeiçoamento!!
+- [x] Revisão da sprint!
+- [x] Reunião!
 
 - Definição Sprint 4
-- [ ] Reunião!
-- [ ] Revisão de código!
-- [ ] Prototipação!
-- [ ] Fase de testes!
-- [ ] Aperfeiçoamento!
-- [ ] Implementação do projeto!
-- [ ] Reunião!
-- [ ] Sistema web homologado!
+- [x] Reunião!
+- [x] Revisão de código!
+- [x] Prototipação!
+- [x] Fase de testes!
+- [x] Aperfeiçoamento!
+- [x] Implementação do projeto!
+- [x] Reunião!
+- [x] Sistema web homologado!
 
 # Modelo de desenvolvimento:
 
