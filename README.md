@@ -26,7 +26,7 @@ Etapas:
 
 - Definição Sprint 3
 - [x] Banco de dados!
-- [ ] Código fonte!
+- [x] Código fonte!
 - [x] Figma!
 - [x] Aperfeiçoamento!!
 - [x] Revisão da sprint!
