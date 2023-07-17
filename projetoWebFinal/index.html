@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre-se</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    
+    <div class="background-image">
+    </div> 
+    
+    <div class="container">
+      <div class="login-form">
+        <div class="brasao-container">
+          <img src="img/brasaomaringa.png" alt="Brasão de Maringá" class="brasao">
+        </div>
+
+        <form>
+          <div class="form-control">
+            <span class="mensagem"></span>
+            <img src="img/SisTrash - logobranca.png" alt="Logo SisTrash" class="logo">
+            <h1>
+              Olá, <br> 
+              Bem-Vindo! <br>
+              Seu primeiro acesso?
+            </h1>
+            <input type="number" id="number" placeholder="CPF">
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Senha">
+            <a id="esqueceu-senha" href="home.html">Já tem uma conta? Login</a>
+          </div>
+          <button type="button" onclick="valorBotao()">Registre-se</button>
+          <a id="registro-link" href="home.html">Registre-se</a>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

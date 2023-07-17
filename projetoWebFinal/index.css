@@ -1,0 +1,187 @@
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.mensagem {
+  color: red;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.button-loading {
+  position: relative;
+  overflow: hidden;
+}
+
+.button-loading:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  border-top-color: transparent;
+  animation: spin 1s infinite linear;
+}
+
+.button-loading.loading {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.button-loading.loading:before {
+  background-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .background-image {
+    background-image: url('img/CaminhaoLixo.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+    height: 100vh;
+    z-index: -1;
+  }
+  
+  .brasao-container {
+    position: absolute;
+    top: 5px;
+    right: 72px;
+    width: 80px;
+    height: auto;
+    z-index: 1;
+  }
+  
+  .brasao {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    margin: 50px auto;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 10px 50px 10px;
+    background-color: #A8D2A0;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  #esqueceu-senha {
+    font-family: sans-serif;
+    font-size: 18px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #A8D2A0;
+    font-size: 16px;
+    color: #444;
+    padding: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 100px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 40px;
+    border: 1px solid #BCB1B1;
+    font-size: 18px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); 
+  }
+  
+  button[type="button"] {
+    position: relative;
+    width: 140px;
+    top: -30px;
+    left: 110px;
+    background-color: #689FF1;
+    color: #fff;
+    border: 1px solid #649aeb;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  #registro-link {
+    display: none;
+    position: relative;
+    width: 130px;
+    top: -72px;
+    left: 105px;
+    background-color: #689FF1;
+    color: #fff;
+    border: 1px solid #649aeb;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #6190d6;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  #esqueceu-senha {
+    position: relative;
+    width: 110px;
+    top: 70px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  #esqueceu-senha:hover {
+    text-decoration: underline;
+  }

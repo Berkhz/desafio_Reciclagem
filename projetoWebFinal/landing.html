@@ -1,0 +1,96 @@
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dashboard</title>
+      <link rel="stylesheet" href="landing.css">
+      <link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="corpo-da-pagina">
+      <header>
+        <img src="img/SisTrash - logo.png" alt="Logo SisTrash" class="logo">
+        <div class="header-icons">
+            <img src="img/o-email.png" alt="email">
+            <img src="img/lupa-arredondada.png" alt="lupa">
+            <span>Administrador</span>
+            <img src="img/lua-crescente.png" alt="lua">
+        </div>
+    </header>
+    
+    <div id="esquerda-dashboard">
+        <h1 id="menu">MENU</h1>
+        <nav class="menu">
+            <div class="menu-container">
+                <ul>
+                    <li><a href="#solicitacoes">SOLICITAÇÕES</a></li>
+                    <li><a href="#atendimentos">ATENDIMENTOS</a></li>
+                    <li><a href="#acompanhar">ACOMPANHAR</a></li>
+                    <li><a href="#graficos">GRÁFICOS</a></li>
+                    <li><a href="#reclamacoes">RECLAMAÇÕES</a></li>
+                    <li><a href="#outros">OUTROS</a></li>
+                    <li><a href="#sobre-nos">SOBRE NÓS</a></li>
+                </ul>
+                <div class="brasao-container">
+                    <img src="img/brasaomaringa.png" alt="brasaomaringa">
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="direita-dashboard">
+      <div class="graficos">
+          <h2>GRÁFICOS:</h2>
+          <div class="grafico-campo">
+              <h2>Coleta do <br> dia:</h2>
+          </div>
+          <div class="grafico-campo bar-chart">
+              <div class="bar">
+                  <div class="bar-text">50</div>
+              </div>
+              <div class="bar">
+                  <div class="bar-text">80</div>
+              </div>
+              <div class="bar">
+                  <div class="bar-text">120</div>
+              </div>
+          </div>
+          <div class="grafico-campo">
+            <h2>Chamados abertos:</h2>
+            <h2>Chamados resolvidos:</h2>
+          </div>
+          <div class="grafico-campo bar-chart">
+            <div class="bar">
+                <div class="bar-text">1078 Chamados abertos</div>
+            </div>
+            <div class="bar">
+                <div class="bar-text">547 Chamados resolvidos</div>
+            </div>
+            </div>
+        </div>
+      </div>
+  </div>
+
+    <main id="centro-dashboard">
+        <div class="caixa-atendimento">
+          <h1 id="texto-central">Central de <br> Atendimento:</h1>
+        </div>
+        <section id="solicitacoes" class="section-box">
+          <h2>Solicitações em aberto:</h2>
+        </section>
+        <section id="duvidas" class="section-box">
+          <h2>Dúvidas:</h2>
+        </section>
+    </main>
+
+    <footer>
+        <p>Versão 2.0</p>
+        <p class="footer-date">Data</p>
+    </footer>
+    </div>
+  </body>
+  </html>
